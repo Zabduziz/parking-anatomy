@@ -167,9 +167,10 @@ async function main() {
     if (problems.length) console.log(problems.join("\n"));
   } finally {
     try { socket?.close(); } catch {}
-    chrome.kill("SIGKILL");
-    rmSync(profile, { recursive: true, force: true });
-    rmSync(frames, { recursive: true, force: true });
+    try { chrome.kill("SIGKILL"); } catch {}
+    for (const dir of [profile, frames]) {
+      try { rmSync(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 }); } catch {}
+    }
   }
 }
 
