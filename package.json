@@ -1,0 +1,14 @@
+{
+  "name": "gerbang-masuk-parkir",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Figure isometrik interaktif dan firmware gerbang masuk parkir kampus berbasis Raspberry Pi 5",
+  "engines": { "node": ">=20.10" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:light": "node src/build.mjs --light",
+    "build:all": "npm run build && npm run build:light",
+    "record": "npm run build:light && node tools/record.mjs"
+  }
+}

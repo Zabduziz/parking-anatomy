@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gerbang Masuk Parkir</title>
+<style>
+  :root { color-scheme: light; --bg:#f2f2ef; --card:#fbfbfa; --ink:#18181a; --muted:#57575a; --line:#c9c9c4; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--ink); font:15px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { width:min(680px,calc(100% - 32px)); background:var(--card); border:1px solid var(--line); padding:40px; }
+  h1 { margin:0 0 8px; font-size:22px; letter-spacing:.01em; }
+  p { margin:0 0 18px; color:var(--muted); }
+  a { color:var(--ink); }
+  .links { display:flex; flex-wrap:wrap; gap:10px; }
+  .links a { border:1px solid var(--line); padding:8px 12px; text-decoration:none; }
+  .links a:hover { border-color:var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gerbang Masuk Parkir</h1>
+  <p>Figure isometrik interaktif dan firmware Raspberry Pi 5 untuk gerbang masuk parkir kampus.</p>
+  <nav class="links">
+    <a href="demo/gerbang-masuk-light.html">Demo tema terang</a>
+    <a href="demo/gerbang-masuk.html">Demo tema gelap</a>
+    <a href="https://github.com/Zabduziz/gerbang-masuk-parkir">Repositori</a>
+  </nav>
+</main>
+</body>
+</html>

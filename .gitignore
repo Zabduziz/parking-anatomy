@@ -1,0 +1,13 @@
+# Local tool installs and debug artifacts
+.agents/
+.commandcode/
+figure/
+shots/
+skills-lock.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
