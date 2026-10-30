@@ -2,7 +2,7 @@
 
 Figure isometrik interaktif dan firmware Raspberry Pi 5 untuk gerbang masuk parkir kampus: kamera memindai wajah dan plat nomor, lalu relay membuka palang.
 
-[Demo interaktif](https://zabduziz.github.io/gerbang-masuk-parkir/demo/gerbang-masuk-light.html) · [Tema gelap](https://zabduziz.github.io/gerbang-masuk-parkir/demo/gerbang-masuk.html) · [Firmware](firmware/gerbang-masuk.py)
+[Demo interaktif](https://zabduziz.github.io/parking-anatomy/demo/gerbang-masuk-light.html) · [Tema gelap](https://zabduziz.github.io/parking-anatomy/demo/gerbang-masuk.html) · [Firmware](firmware/gerbang-masuk.py)
 
 <img src="docs/media/gerbang-masuk-light.gif" alt="Animasi gerbang masuk parkir: motor berhenti, kamera memindai plat, palang terbuka, motor lewat" width="640">
 
@@ -33,7 +33,7 @@ Camera Module V3 dan sensor IR E18-D80NK masuk ke Raspberry Pi 5 yang menjalanka
 
 Seret motor di lajur, lalu lepaskan di garis berhenti untuk memindai. Tekan <kbd>Space</kbd> untuk mengirim satu motor. Jika tidak disentuh, figure menjalankan tur otomatis yang bergantian antara siklus diterima dan ditolak. Pengunjung dengan preferensi reduced-motion mendapat pose diam.
 
-Kedua tema dibangun dari sumber yang sama. Animasi di README memakai build tema terang; tema gelap tersedia di [demo gelap](https://zabduziz.github.io/gerbang-masuk-parkir/demo/gerbang-masuk.html).
+Kedua tema dibangun dari sumber yang sama. Animasi di README memakai build tema terang; tema gelap tersedia di [demo gelap](https://zabduziz.github.io/parking-anatomy/demo/gerbang-masuk.html).
 
 ## Struktur repositori
 
